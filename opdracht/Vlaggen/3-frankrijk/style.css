@@ -1,6 +1,7 @@
 /* Hier hoef je niks mee te doen */
 *{
     font-size:0;
+    display: inline-block;
 }
 
 #container{
@@ -8,19 +9,26 @@
     height: 500px;
     background-color: blanchedalmond;
     border: 1px solid black;
+
 }
 
 /* Hieronder kun je gaan editen */
 
-#bovenkant{
-    width: 800px;
-    height: 250px;
+#boven{
+    width: 275px;
+    height: 500px;
+    background-color: red;
+}
+
+#midden{
+    width: 250px;
+    height: 500px;
     background-color: white;
 }
 
-#onderkant{
-    width: 800px;
-    height: 250px;
-    background-color: red;
+#onder{
+    width: 275px;
+    height: 500px;
+    background-color: blue;
 }
 
